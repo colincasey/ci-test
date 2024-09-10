@@ -1,5 +1,9 @@
 {
-    "buildpacks": [{
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs#corepack-ci-fix"
-    }]
+    "environments": {
+        "test": {
+           "buildpacks": [{
+                "url": "https://github.com/heroku/heroku-buildpack-nodejs#corepack-ci-fix"
+            }]
+        }
+    }
 }
