@@ -1,8 +1,8 @@
 {
     "environments": {
         "test": {
-           "buildpacks": [{
-                "url": "https://github.com/heroku/heroku-buildpack-nodejs#corepack-ci-fix"
+           "scripts": [{
+                "test": "npm run test"
             }]
         }
     }
