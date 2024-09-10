@@ -1,1 +1,5 @@
-{}
+{
+    "buildpacks": [{
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#exploring-ci-errors"
+    }]
+}
